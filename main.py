@@ -19,14 +19,13 @@ init()
 
 def logo():
     print("")
-    print(Fore.CYAN + " ███████████ ██║ ███ " + Fore.RESET + Fore.MAGENTA + "███████╗██████╗ ██████╗██╗          ██╗   ██╗██╗  ██████╗ " + Fore.RESET)
-    print(Fore.CYAN + " ╚══██╔══ ██ ██║ ██╔ " + Fore.RESET + Fore.MAGENTA + "╚══██╔══██╔═══████╔═══████║         ██║   █████║ ██╔════╝ " + Fore.RESET)
-    print(Fore.CYAN + "    ██║   ██ █████╔╝ " + Fore.RESET + Fore.MAGENTA + "   ██║  ██║   ████║   ████║         ██║   ██╚██║ ███████╗ " + Fore.RESET)
-    print(Fore.CYAN + "    ██║   ██ ██╔═██╗ " + Fore.RESET + Fore.MAGENTA + "   ██║  ██║   ████║   ████║         ╚██╗ ██╔╝██║ ██╔═══██╗" + Fore.RESET)
-    print(Fore.CYAN + "    ██║   ██ ██║  ██╗" + Fore.RESET + Fore.MAGENTA + "   ██║  ╚██████╔╚██████╔███████╗     ╚████╔╝ ████╚██████╔╝" + Fore.RESET)
-    print(Fore.CYAN + "    ╚═╝   ╚═ ╚═╝  ╚═╝" + Fore.RESET + Fore.MAGENTA + "   ╚═╝   ╚═════╝ ╚═════╝╚══════╝      ╚═══╝  ╚═╚═╝╚═════╝ " + Fore.RESET)
+    print(Fore.CYAN + " ███████████ ██║ ███ " + Fore.RESET + Fore.MAGENTA + "███████╗██████╗ ██████╗██╗          " + Fore.RESET)
+    print(Fore.CYAN + " ╚══██╔══ ██ ██║ ██╔ " + Fore.RESET + Fore.MAGENTA + "╚══██╔══██╔═══████╔═══████║         " + Fore.RESET)
+    print(Fore.CYAN + "    ██║   ██ █████╔╝ " + Fore.RESET + Fore.MAGENTA + "   ██║  ██║   ████║   ████║         " + Fore.RESET)
+    print(Fore.CYAN + "    ██║   ██ ██╔═██╗ " + Fore.RESET + Fore.MAGENTA + "   ██║  ██║   ████║   ████║         " + Fore.RESET)
+    print(Fore.CYAN + "    ██║   ██ ██║  ██╗" + Fore.RESET + Fore.MAGENTA + "   ██║  ╚██████╔╚██████╔███████╗    " + Fore.RESET)
+    print(Fore.CYAN + "    ╚═╝   ╚═ ╚═╝  ╚═╝" + Fore.RESET + Fore.MAGENTA + "   ╚═╝   ╚═════╝ ╚═════╝╚══════╝    " + Fore.RESET)
     print()
-    print("    https://github.com/AdamBankz/TikTool")
     print()
     print()
 
@@ -428,6 +427,6 @@ def commentBot():
 
 
 os.system('cls')
-os.system("title TikTool v1.6 │ LEAVE A STAR FOR UPDATES!")
+os.system("title TikTool")
 time.sleep(3)
 chooseSocial()
