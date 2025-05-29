@@ -3,3 +3,4 @@ Pillow
 undetected-chromedriver
 selenium
 colorama
+utils
